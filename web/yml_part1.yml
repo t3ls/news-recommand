@@ -1,0 +1,49 @@
+# ===========================================
+# Site Information Settings
+# ===========================================
+
+# Site creation time
+since: 2019
+
+# Custom your favicon.ico in `site/source`
+favicon: /favicon.ico
+
+# Set feed link (false | default | your feed link)
+# false: disable
+# default: use `atom.xml`, generator for `hexo-generator-feed`
+rss: default
+
+# ===========================================
+# Menu Settings
+# ===========================================
+menu:
+  首页: /
+  要闻: /categories/yaowen
+  时政: /categories/shizheng
+  科技: /categories/keji
+  军事: /categories/junshi
+  财经: /categories/caijing
+  体育: /categories/tiyu
+  娱乐: /categories/yule
+  教育: /categories/jiaoyu
+  其它: /categories/qita
+
+
+# ===========================================
+# Widget Settings
+# ===========================================
+# widget function
+# false: disable
+# widget_custom: custom your widget
+#   title: your widget title
+#   content: Add your html code in here. Example: <p>testing...</p>
+widget:
+  Tags: false
+  Categories: true
+  Custom: true
+
+widget_custom:
+    title: 热词
+    content:
+      <ul>
+        <li class="category-list-item">

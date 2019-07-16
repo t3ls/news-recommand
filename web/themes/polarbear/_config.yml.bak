@@ -1,0 +1,101 @@
+# ===========================================
+# Site Information Settings
+# ===========================================
+
+# Site creation time
+since: 2014
+
+# Custom your favicon.ico in `site/source`
+favicon: /favicon.ico
+
+# Set feed link (false | default | your feed link)
+# false: disable
+# default: use `atom.xml`, generator for `hexo-generator-feed`
+rss: default
+
+# ===========================================
+# Menu Settings
+# ===========================================
+menu:
+  首页: /
+  要闻: /categories/yaowen
+  时政: /categories/shizheng
+  科技: /categories/keji
+  军事: /categories/junshi
+  财经: /categories/caijing
+  体育: /categories/tiyu
+  娱乐: /categories/yule
+  教育: /categories/jiaoyu
+  其它: /categories/qita
+  更多: /categories/archives
+
+
+# ===========================================
+# Widget Settings
+# ===========================================
+# widget function
+# false: disable
+# widget_custom: custom your widget
+#   title: your widget title
+#   content: Add your html code in here. Example: <p>testing...</p>
+widget:
+  Tags: false
+  Categories: true
+  Custom: true
+
+widget_custom:
+    title: 热词
+    content:
+        # 热词在这里
+      <ul>
+        <li class="category-list-item">
+          <a class="category-list-link" href="#">热词</a>
+          <span class="category-list-count">1</span>
+          &nbsp;&nbsp;
+          <a class="category-list-link" href="#">热词2</a>
+          <span class="category-list-count">122</span>
+          &nbsp;&nbsp;
+          <a class="category-list-link" href="#">热词2</a>
+          <span class="category-list-count">122</span>
+          &nbsp;&nbsp;
+          <a class="category-list-link" href="#">热词2</a>
+          <span class="category-list-count">122</span>
+          &nbsp;&nbsp;
+          <a class="category-list-link" href="#">热词2</a>
+          <span class="category-list-count">122</span>
+          &nbsp;&nbsp;
+          <a class="category-list-link" href="#">热词2</a>
+          <span class="category-list-count">122</span>
+        </li>
+      </ul>
+        # 热词没了
+
+
+# ===========================================
+# Theme Settings
+# ===========================================
+# theme styling
+# color: Default | Mint Green | Cobalt Blue | Hot Pink | Dark Violet
+theme:
+  color: Default
+  fancybox: false
+
+# ===========================================
+# Third Party Services Settings
+# ===========================================
+
+# Baidu Analytics
+baidu_analytics:
+# Google Analytics
+google_analytics:
+
+# Duoshuo
+duoshuo_shortname:
+# Disqus
+disqus_shortname:
+
+
+# ===========================================
+# Version
+# ===========================================
+version: 1.1
